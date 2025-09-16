@@ -1,17 +1,19 @@
 **🧠 Contact Information Extraction with JSON Schema Validation**
+
 **📘 Project Overview**
 
 This project demonstrates how to extract structured contact information from unstructured chat messages using Python. It employs regular expressions (regex) and JSON Schema validation to ensure the extracted data adheres to a predefined structure.
 
 **🔧 Key Features
 **
-Regex-Based Extraction: Utilizes regular expressions to identify and extract key information such as name, email, phone number, location, and age from chat messages.
 
-JSON Schema Validation: Ensures the extracted data conforms to a specified JSON schema, validating the presence and format of each field.
+a. Regex-Based Extraction: Utilizes regular expressions to identify and extract key information such as name, email, phone number, location, and age from chat messages.
 
-Fallback Mechanism: In the absence of an API client, the system defaults to the regex-based extraction method.
+b. JSON Schema Validation: Ensures the extracted data conforms to a specified JSON schema, validating the presence and format of each field.
 
-🛠 Installation & Setup
+c. Fallback Mechanism: In the absence of an API client, the system defaults to the regex-based extraction method.
+
+**🛠 Installation & Setup**
 
 To run this project locally, follow these steps:
 
